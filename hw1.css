@@ -29,24 +29,25 @@ hr {
     color: lightslategray;
 }
 
-.main {
+main {
     display: flex;
 }
 .main_info {
     width: 50%;
-    margin-left: 5%;
+    display: grid;
 }
 .block_info {
     background: lavenderblush;
     margin: 15px;
     border-radius: 15px;
-    padding: 3px 20px;
-    width: 90%;
+    padding: 20px;
 }
 #image {
     display: flex;
     position: relative;
     img {
+        flex-direction: row;
+        justify-content: space-around;
         width: 90%;
         border-radius: 20px;
         margin: 5px;
@@ -58,9 +59,12 @@ hr {
     display: flex;
     position: relative;
     img {
-        width: 30%;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 90%;
         border-radius: 20px;
         margin: 10px;
+        max-height: 170px;
     }
 }
 #photo {
@@ -73,7 +77,7 @@ hr {
         border-radius: 50px 10px;
     }
 }
-#bottom {
+footer {
     left: 0;
     bottom: 0;
     width: 100%;
@@ -82,6 +86,7 @@ hr {
     padding: 10px;
     width: 100%;
     display: flex;
+    justify-content: center;
     img {
         max-height: 35px;
         margin: 5px;
@@ -95,10 +100,16 @@ hr {
 .comic-part {
     text-align: center;
     margin: 5%;
-    p {
-        color: yellowgreen;
+    color: lightskyblue;
+    button {
+        border-radius: 15px;
+        padding: 1%;
+        background: lavenderblush;
+        font-size: 20px;
+        transition: all 0.5s;
     }
-    h2 {
-        color: yellowgreen;
+    button:hover {
+        background: lightskyblue;
+        font-size: 25px;
     }
 }

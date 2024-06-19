@@ -1,4 +1,5 @@
 const fetchComic = document.getElementById('fetchComic');
+
 fetchComic.addEventListener('click', async () => {
     const email = 'm.ilyina@innopolis.university';
 
@@ -11,7 +12,6 @@ fetchComic.addEventListener('click', async () => {
     const comicData = await comicResponse.json();
     comicTitle.textContent = comicData.title;
     comicImage.src = comicData.img;
-    fetchComic.textContent = '';
 
     const date = new Date(comicData.year, comicData.month - 1, comicData.day);
     comicDate.textContent = `Upload: ${date.toLocaleDateString()}`;
