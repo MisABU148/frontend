@@ -63,13 +63,13 @@ hr {
         margin: 10px;
     }
 }
-.photo {
+#photo {
     width: 50%;
     margin: 15px;
     img {
         max-width: 100%;
-        margin-left: 25%;
-        max-height: 50%;
+        margin-left: 15%;
+        max-height: 70%;
         border-radius: 50px 10px;
     }
 }
@@ -88,5 +88,17 @@ hr {
     }
     p {
         color: lavenderblush;
+        font-weight: 800;
+    }
+}
+
+.comic-part {
+    text-align: center;
+    margin: 5%;
+    p {
+        color: yellowgreen;
+    }
+    h2 {
+        color: yellowgreen;
     }
 }
