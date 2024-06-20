@@ -1,5 +1,4 @@
 const fetchComic = document.getElementById('fetchComic');
-
 fetchComic.addEventListener('click', async () => {
     const email = 'm.ilyina@innopolis.university';
 
