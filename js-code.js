@@ -1,8 +1,8 @@
-const fetchComic = document.getElementById('fetchComic');
-fetchComic.addEventListener('click', async () => {
+const comic = document.getElementById('сomic');
+comic.addEventListener('click', async () => {
     const email = 'm.ilyina@innopolis.university';
 
-    const comicImage = document.getElementById('comicImage');
+    const cImage = document.getElementById('comicImage');
     const param_resp = new URLSearchParams({ email });
     const idResponse = await fetch(`https://fwd.innopolis.university/api/hw2?${param_resp}`);
     const id = await idResponse.text();
@@ -10,7 +10,7 @@ fetchComic.addEventListener('click', async () => {
     const comicResponse = await fetch(`https://fwd.innopolis.university/api/comic?${param_comic}`);
     const comicData = await comicResponse.json();
     comicTitle.textContent = comicData.title;
-    comicImage.src = comicData.img;
+    cImage.src = comicData.img;
 
     const date = new Date(comicData.year, comicData.month - 1, comicData.day);
     comicDate.textContent = `Upload: ${date.toLocaleDateString()}`;
