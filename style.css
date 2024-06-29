@@ -41,18 +41,12 @@ main {
     border-radius: 15px;
     padding: 20px;
 }
-.image {
-    display: flex;
-    position: relative;
+.proj {
     a {
-        justify-content: space-around;
+        color: black;
     }
-    img {
-        width: 90%;
-        border-radius: 20px;
-        margin: 5px;
-        max-height: 200px;
-    }
+    margin: 5px;
+    max-height: 200px;
 }
 .image-hob {
     display: flex;
