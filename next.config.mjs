@@ -6,6 +6,9 @@ const nextConfig = {
     basePath: isProd ? '/frontend' : '',
     trailingSlash: true,
     reactStrictMode: true,
+    images: {
+        domains: ['imgs.xkcd.com'],
+    },
 };
 
 export default nextConfig;

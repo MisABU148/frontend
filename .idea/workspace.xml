@@ -4,39 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9ef6e1-2d20-4988-8c1b-9952e4a0ae49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gh_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/gmail_png.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/light_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mafia_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/my_photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/proj_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/robo_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/techst_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tennis_img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tg_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/train_img.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Comic.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Education.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hobbies.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Photo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/types.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+    <list default="true" id="9e9ef6e1-2d20-4988-8c1b-9952e4a0ae49" name="Changes" comment="hw5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Comic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comic.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hobbies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hobbies.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Photo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Photo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "homework5",
     "last_opened_file_path": "D:/innopolis/frontendv/your-nextjs-project/src/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -94,11 +67,24 @@
       <workItem from="1720174088479" duration="15000" />
       <workItem from="1720174113908" duration="121000" />
       <workItem from="1720174336513" duration="326000" />
-      <workItem from="1720174682495" duration="2863000" />
+      <workItem from="1720174682495" duration="3828000" />
     </task>
+    <task id="LOCAL-00001" summary="hw5">
+      <option name="closed" value="true" />
+      <created>1720179314813</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720179314813</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw5" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
   </component>
 </project>

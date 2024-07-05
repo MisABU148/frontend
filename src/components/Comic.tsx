@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React, { useState } from 'react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
@@ -43,7 +43,7 @@ const Comic: React.FC = () => {
         <div className="comic-part">
             <button onClick={fetchComic}>Click to see a comic!</button>
             <h2>{comicTitle}</h2>
-            {comicImage && <Image src={comicImage} alt={comicTitle} />}
+            {comicImage && <Image src={comicImage} alt={comicTitle} width={500} height={400}/>}
             <p>{comicDate}</p>
         </div>
     );
