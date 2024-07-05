@@ -6,6 +6,7 @@ import Photo from "../components/Photo";
 import Comic from "../components/Comic";
 import Footer from "../components/Footer";
 import React from "react";
+import '../styles/style.css'
 
 export default function Home() {
   return (

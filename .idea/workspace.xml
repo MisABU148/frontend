@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e9ef6e1-2d20-4988-8c1b-9952e4a0ae49" name="Changes" comment="hw5">
+    <list default="true" id="9e9ef6e1-2d20-4988-8c1b-9952e4a0ae49" name="Changes" comment="edit images">
+      <change afterPath="$PROJECT_DIR$/.nojekyll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/comic-page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Comic.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Comic.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hobbies.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hobbies.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Photo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Photo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,9 @@
       <recent name="D:\innopolis\frontendv\your-nextjs-project\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\innopolis\frontendv\your-nextjs-project\src\pages" />
+      <recent name="D:\innopolis\frontendv\your-nextjs-project\src\components" />
+      <recent name="D:\innopolis\frontendv\your-nextjs-project\src\page" />
       <recent name="D:\innopolis\frontendv\your-nextjs-project\public" />
     </key>
   </component>
@@ -67,7 +70,7 @@
       <workItem from="1720174088479" duration="15000" />
       <workItem from="1720174113908" duration="121000" />
       <workItem from="1720174336513" duration="326000" />
-      <workItem from="1720174682495" duration="3828000" />
+      <workItem from="1720174682495" duration="5409000" />
     </task>
     <task id="LOCAL-00001" summary="hw5">
       <option name="closed" value="true" />
@@ -77,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720179314813</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="edit images">
+      <option name="closed" value="true" />
+      <created>1720180098525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720180098525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hw5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
+    <MESSAGE value="edit images" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit images" />
   </component>
 </project>
