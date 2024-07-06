@@ -46,7 +46,7 @@ const Comic: React.FC = () => {
             <h2>{comicTitle}</h2>
             {comicImage && <Image src={comicImage} alt={comicTitle} width={500} height={400}/>}
             <p>{comicDate}</p>
-            <Link href="/page">
+            <Link href="/">
                 <button>View Resume</button>
             </Link>
         </div>
