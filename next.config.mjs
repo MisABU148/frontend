@@ -6,9 +6,13 @@ const nextConfig = {
     basePath: isProd ? '/frontend' : '',
     trailingSlash: true,
     reactStrictMode: true,
-    images: {
-        domains: ['imgs.xkcd.com'],
-    },
+    webpack: (config) => {
+        config.module.rules.push({
+            test: /\.svg$/,
+            use: ["@svgr/webpack"],
+        });
+        return config;
+    }
 };
 
 export default nextConfig;
