@@ -7,7 +7,6 @@ const nextConfig = {
     trailingSlash: true,
     reactStrictMode: true,
     images: {
-        protocol: 'https',
         domains: ['imgs.xkcd.com'],
     },
 };
