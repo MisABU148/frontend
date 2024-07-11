@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 import Image from 'next/image';
 import Link from 'next/link';
-import '../styles/style.css'
+import Head from 'next/head';
+import '../styles/style.css';
 
 dayjs.extend(relativeTime);
 
@@ -15,42 +16,45 @@ interface ComicProps {
     day: string;
 }
 
-const Comic: React.FC = () => {
-    const [comicTitle, setComicTitle] = useState('');
-    const [comicImage, setComicImage] = useState('');
-    const [comicDate, setComicDate] = useState('');
+interface ComicPageProps {
+    comicTitle: string;
+    comicImage: string;
+    comicDate: string;
+}
 
-    const fetchComic = async () => {
-        try {
-            const email = 'm.ilyina@innopolis.university';
+const Comic: React.FC<ComicPageProps> = ({ comicTitle, comicImage, comicDate }) => (
+    <div className='comic-part'>
+        <Head>
+            <title>{comicTitle} - Comic</title>
+            <meta name="description" content={`Read the comic titled "${comicTitle}"`} />
+        </Head>
+        <h2>{comicTitle}</h2>
+        {comicImage && <Image src={comicImage} alt={comicTitle} width={500} height={400} />}
+        <p>{comicDate}</p>
+        <Link href="/">
+            <button>View Resume</button>
+        </Link>
+    </div>
+);
 
-            const idResponse = await fetch(`https://fwd.innopolis.university/api/hw2?email=${email}`);
-            const id = await idResponse.text();
+export const getServerSideProps = async () => {
+    const email = 'm.ilyina@innopolis.university';
 
-            const comicResponse = await fetch(`https://fwd.innopolis.university/api/comic?id=${id}`);
-            const comicData: ComicProps = await comicResponse.json();
+    const idResponse = await fetch(`https://fwd.innopolis.university/api/hw2?email=${email}`);
+    const id = await idResponse.text();
 
-            setComicTitle(comicData.title);
-            setComicImage(comicData.img);
+    const comicResponse = await fetch(`https://fwd.innopolis.university/api/comic?id=${id}`);
+    const comicData: ComicProps = await comicResponse.json();
 
-            const date = new Date(parseInt(comicData.year), parseInt(comicData.month) - 1, parseInt(comicData.day));
-            setComicDate(`Upload: ${dayjs(date).fromNow()} ${date.toLocaleDateString()}`);
-        } catch (error) {
-            console.error('Error fetching comic:', error);
+    const date = new Date(parseInt(comicData.year), parseInt(comicData.month) - 1, parseInt(comicData.day));
+
+    return {
+        props: {
+            comicTitle: comicData.title,
+            comicImage: comicData.img,
+            comicDate: `Upload: ${dayjs(date).fromNow()} ${date.toLocaleDateString()}`
         }
-    };
-
-    return (
-        <div className='comic-part'>
-            <button onClick={fetchComic}>Click to see a comic!</button>
-            <h2>{comicTitle}</h2>
-            {comicImage && <Image src={comicImage} alt={comicTitle} width={500} height={400}/>}
-            <p>{comicDate}</p>
-            <Link href="/">
-                <button>View Resume</button>
-            </Link>
-        </div>
-    );
-};
+    }
+}
 
 export default Comic;
