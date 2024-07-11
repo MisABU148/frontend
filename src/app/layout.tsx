@@ -17,7 +17,7 @@ export default function RootLayout({children,}: Readonly<{
         <html lang="en">
         <head>
             <title>{metadata.title}</title>
-            <link rel="icon" href="/../../public/images/favicon.ico"/>
+            <link rel="icon" href="/frontend/images/favicon.ico"/>
             <meta name="author" content={metadata.author}/>
             <meta name="description" content={metadata.description}/>
         </head>
